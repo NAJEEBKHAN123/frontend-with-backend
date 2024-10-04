@@ -19,7 +19,7 @@ import {
   DialogActions,
 } from "@mui/material";
 
-const API_URL = "http://localhost:3000/api/user";
+const API_URL = 'https://backend-with-frontend.vercel.app/api/user';
 
 function App() {
   const [users, setUsers] = useState([]);
